@@ -737,16 +737,22 @@ address {
 .email-join:hover {
   border: 1px solid var(--accent-color);
 }
-.btn {
+.subscribe-form {
   position: relative;
 }
 .btn-join {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.86em;
   text-align: center;
   letter-spacing: 0.06em;
-  padding: 0;
+
+  margin-left: 15px;
 
   color: #ffffff;
   background-color: var(--accent-color);
@@ -765,15 +771,10 @@ address {
   border: 1px solid #ffffff;
 }
 .email-icon {
-  position: absolute;
-  left: 83.31%;
-  right: 15.19%;
+  margin-left: 10px;
+  transform: translateY(20%);
 
   fill: var(--main-title-color);
-}
-
-.subscribe {
-  padding: 10px 29px 62px;
 }
 
 .backdrop {
