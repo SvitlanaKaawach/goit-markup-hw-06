@@ -738,12 +738,12 @@ address {
   border: 1px solid var(--accent-color);
 }
 .subscribe-form {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-join {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
@@ -772,8 +772,6 @@ address {
 }
 .email-icon {
   margin-left: 10px;
-  transform: translateY(20%);
-
   fill: var(--main-title-color);
 }
 
