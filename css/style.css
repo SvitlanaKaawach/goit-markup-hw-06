@@ -675,6 +675,13 @@ address {
   align-items: baseline;
   display: flex;
 }
+.footer-social-link-list {
+  align-items: baseline;
+  display: flex;
+}
+.address-footer-thumb {
+  flex-grow: 1;
+}
 .social-footer {
   margin-left: 70px;
   justify-content: center;
@@ -810,6 +817,9 @@ address {
   transform: translate(-50%, -50%);
 }
 
+.modal-form {
+  padding: 40px;
+}
 .modal-button {
   width: 30px;
   height: 30px;
@@ -850,13 +860,10 @@ address {
   color: var(--secondary-title-color);
   display: block;
   margin-bottom: 12px;
-  padding-top: 46px;
 }
 
 .modal-form-field {
   margin-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .modal-form-label {
@@ -869,6 +876,7 @@ address {
 }
 
 .input-wrap {
+  margin-top: 4px;
   display: block;
   position: relative;
 }
@@ -890,6 +898,8 @@ address {
 }
 /* comment in modal */
 .modal-comment {
+  margin-top: 4px;
+  display: block;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -916,8 +926,11 @@ address {
 }
 .check-label {
   display: flex;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 /* send form button */
 .form-btn {
@@ -936,6 +949,7 @@ address {
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 /*  --------- checkbox sprite--------- */
 .icon-check {
