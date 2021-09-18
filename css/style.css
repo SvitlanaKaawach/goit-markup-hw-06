@@ -838,10 +838,6 @@ address {
 .modal-button:hover .modal-icon {
   fill: var(--accent-color);
 }
-/* .modal-icon:hover,
-.modal-icon:focus {
-  fill: var(--accent-color);
-} */
 
 .modal-icon {
   fill: #000000;
